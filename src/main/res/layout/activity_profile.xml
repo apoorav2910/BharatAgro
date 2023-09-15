@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile">
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:orientation="vertical"
+        android:background="#244542"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/bg3"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+                android:layout_gravity="start|top"
+                android:layout_marginLeft="18dp"
+                >
+
+            </ImageView>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/ic_baseline_account_circle_24"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apoorav Kumar"
+                android:textSize="22sp"
+                android:textColor="#DBBF9D"
+                android:textStyle="bold"
+                android:fontFamily="@font/comfortaa_light"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Edit Profile "
+                    android:textSize="16sp"
+                    android:fontFamily="@font/comfortaa_light"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:src="@drawable/ic_baseline_edit_24"
+                    >
+
+                </ImageView>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:orientation="vertical"
+            android:background="#244542"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="left"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_height="wrap_content"
+                    android:text="Phone Number"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/comfortaa_light"
+                    android:layout_weight="3"
+                    android:textColor="@color/white"
+                    />
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="9091128866"
+                    android:layout_marginTop="12dp"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/karla"
+                    android:textColor="#dbbf9d"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="left"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Aadhar Number"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/comfortaa_light"
+                    android:layout_weight="3"
+                    />
+
+                <TextView
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="XXXX XXXX XXXX XXXX"
+                    android:textSize="18sp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/karla"
+                    android:textColor="#dbbf9d" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="left"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:weightSum="4"
+                >
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/comfortaa_light"
+                    android:layout_weight="3"
+                    />
+
+                <TextView
+                    android:layout_width="259dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="143, Commercial St, Tasker Town, Sampangi Rama Nagar Bangalore, Karnataka 560001"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/karla"
+                    android:layout_marginTop="12dp"
+                    android:textColor="#dbbf9d" />
+            </LinearLayout>
+
+
+            <android.widget.Button
+                android:id="@+id/signout"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#fb5454"
+                android:text="Sign Out"
+                android:textColor="@color/white"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/small_btn"
+                android:fontFamily="@font/karla"
+                android:textSize="18sp"
+                >
+
+            </android.widget.Button>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

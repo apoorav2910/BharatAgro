@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Tomato Saver</string>
+    <string name="fgpass">Forget Password?</string>
+
+    <style name="login">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="continue_as">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#DBBF9D</item>
+    </style>
+
+    <string name="login">Login</string>
+    <string name="continue_as">Continue as Consumer -></string>
+    <string name="sign_up">New User? Tap here to Register</string>
+
+    <string-array name="dropdown_items">
+        <item>Punjab</item>
+        <item>Chandigarh</item>
+        <item>Haryana</item>
+        <item>Himachal</item>
+        <item>Rajasthan</item>
+    </string-array>
+    <string name="title_activity_bottom_nav">bottomNav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

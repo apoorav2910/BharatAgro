@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="#1D3133"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="600dp"
+       android:orientation="vertical"
+       android:layout_marginTop="200dp"
+       android:background="@drawable/bg1"
+       android:padding="10dp"
+       >
+
+      <View
+          android:id="@+id/toggle_form"
+          android:layout_width="50dp"
+          android:layout_height="5dp"
+          android:layout_gravity="center_horizontal|top"
+          android:layout_marginBottom="25dp"
+          android:background="@drawable/toggle_form"
+          />
+
+
+      <TextView
+          android:id="@+id/login"
+          android:layout_width="64dp"
+          android:layout_height="32dp"
+          android:layout_gravity="start|top"
+          android:layout_marginLeft="31dp"
+          android:fontFamily="@font/playfair_display"
+          android:gravity="top"
+          android:text="@string/login"
+          android:textAppearance="@style/login"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/mail"
+          android:layout_width="319.7dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="start|top"
+          android:layout_marginLeft="30.3dp"
+          android:layout_marginTop="24dp"
+          android:fontFamily="@font/karla"
+          android:text="YOUR EMAIL"
+          android:textAppearance="@style/label">
+
+          </TextView>
+
+
+   <com.google.android.material.textfield.TextInputEditText
+       android:id="@+id/form_field"
+       android:layout_width="wrap_content"
+       android:layout_height="43dp"
+       android:layout_gravity="start|top"
+       android:layout_marginLeft="30.3dp"
+       android:layout_marginRight="30.3dp"
+       android:layout_marginTop="15dp"
+       android:paddingLeft="20dp"
+       android:textColor="@color/black"
+       android:hint="random123@gmail.com"
+       android:background="@drawable/form_field"
+       android:elevation="4dp"
+       />
+
+      <TextView
+          android:id="@+id/password"
+          android:layout_width="319.7dp"
+          android:layout_height="wrap_content"
+          android:layout_gravity="start|top"
+          android:layout_marginLeft="30.3dp"
+          android:layout_marginTop="24dp"
+          android:fontFamily="@font/karla"
+          android:text="PASSWORD"
+          android:textAppearance="@style/label">
+
+      </TextView>
+
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:id="@+id/form_field1"
+          android:layout_width="wrap_content"
+          android:layout_height="43dp"
+          android:layout_gravity="start|top"
+          android:layout_marginLeft="30.3dp"
+          android:layout_marginRight="30.3dp"
+          android:layout_marginTop="8dp"
+          android:hint="Password"
+          android:textColor="@color/black"
+          android:inputType="textPassword"
+          android:background="@drawable/form_field"
+          android:elevation="4dp"
+          android:paddingLeft="20dp"
+          android:paddingRight="10dp"
+          android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"
+          />
+      
+      <android.widget.Button
+          android:id="@+id/btn_login"
+          android:layout_width="256dp"
+          android:layout_height="43dp"
+          android:text="Login"
+          android:gravity="center"
+          android:layout_marginLeft="30.3dp"
+          android:layout_marginRight="30.3dp"
+          android:layout_marginTop="75dp"
+          android:textColor="#FFFFFF"
+          android:layout_gravity="center_horizontal"
+          android:background="@drawable/loginbtn_bg"
+          android:backgroundTint="#1D3133"
+          >
+      </android.widget.Button>
+
+      <TextView
+          android:id="@+id/continue_as"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal|top"
+          android:layout_marginLeft="84dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginRight="85dp"
+          android:fontFamily="@font/karla"
+          android:gravity="center_horizontal|top"
+          android:text="@string/continue_as"
+          android:textAppearance="@style/continue_as" />
+
+      <TextView
+          android:id="@+id/signup"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal|top"
+          android:layout_marginLeft="84dp"
+          android:layout_marginTop="25dp"
+          android:layout_marginRight="85dp"
+          android:fontFamily="@font/karla"
+          android:gravity="center_horizontal|top"
+          android:text="@string/sign_up"
+          android:textColor="#80ed99"
+          android:textSize="16dp"
+          />
+
+
+   </LinearLayout>
+
+</LinearLayout>
